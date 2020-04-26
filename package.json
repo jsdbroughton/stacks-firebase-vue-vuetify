@@ -1,0 +1,23 @@
+{
+  "name": "stacks-firebase-vue-vuetify",
+  "version": "1.0.0",
+  "description": "A template development stack for integrating VueJS, Firebase and skinning it with Vuetify",
+  "scripts": {
+		"install": "(cd frontend && npm install); (cd functions && npm install)"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsdbroughton/stacks-firebase-vue-vuetify.git"
+  },
+  "keywords": [
+    "stack",
+    "vuejs",
+    "firebase",
+    "template"
+  ],
+  "author": "Jonathon Broughton (@jsdbroughton)",
+  "bugs": {
+    "url": "https://github.com/jsdbroughton/stacks-firebase-vue-vuetify/issues"
+  },
+  "homepage": "https://github.com/jsdbroughton/stacks-firebase-vue-vuetify#readme"
+}
