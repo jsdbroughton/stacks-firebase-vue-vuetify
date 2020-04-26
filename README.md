@@ -34,6 +34,7 @@
 * [Getting Started](#getting-started)
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
+	* [PostInstallation](#post-installation)
 * [Usage](#usage)
 * [Roadmap](#roadmap)
 * [Contributing](#contributing)
@@ -145,6 +146,10 @@ npm install
 
 6. All this will have linked your new project with Firebase - there won't be much more to do at this point.
 
+### Post Installation
+
+Both the Functions and Frontend sections have specific instructions how to develop each stream separately.
+
 <!-- USAGE EXAMPLES -->
 ## Usage
 
@@ -153,6 +158,10 @@ This template doesn't at present include any examples beyond the standard setup 
 There are no tips and tricks for the Cloud Functions yet.
 
 There are a bunch of hacks to the npm scripts in the parent project and also for both the functions and the frontend sections. These are all the glue that makes for a pain-free (lol) development platform pre-deployment.
+
+The broad intention is that development of frontend and backend be decoupled by-and-large.
+
+Single-point deployment is advantageous, but the Firebase deployment tools is sufficient to learn rather than recreate it as an npm mask here.
 
 <!-- ROADMAP -->
 ## Roadmap
