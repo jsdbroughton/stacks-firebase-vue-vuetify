@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-		"build": "vue-cli-service build --dest \"../public\" --no-clean ",
-		"lint": "vue-cli-service lint"
+    "build": "vue-cli-service build --dest \"../public\" --no-clean ",
+    "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "@mdi/font": "^3.6.95",
@@ -22,7 +22,7 @@
     "@vue/cli-plugin-babel": "~4.2.0",
     "@vue/cli-plugin-eslint": "~4.2.0",
     "@vue/cli-plugin-router": "~4.2.0",
-    "@vue/cli-plugin-typescript": "~4.2.0",
+    "@vue/cli-plugin-typescript": "^4.3.1",
     "@vue/cli-plugin-vuex": "~4.2.0",
     "@vue/cli-service": "~4.2.0",
     "@vue/eslint-config-standard": "^5.1.0",
