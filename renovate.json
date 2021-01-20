@@ -1,0 +1,36 @@
+{
+  "extends" : [
+    "config:base"
+  ],
+  "rebaseWhen" : "behind-base-branch",
+  "packageRules" : [
+    {
+      "packagePatterns" : [
+        "*"
+      ],
+      "rangeStrategy" : "replace"
+    },
+    {
+      "depTypeList" : [
+        "devDependencies"
+      ],
+      "rangeStrategy" : "pin",
+      "automerge" : true,
+      "automergeType" : "branch",
+      "requiredStatusChecks" : null
+    },
+    {
+      "depTypeList" : [
+        "peerDependencies"
+      ],
+      "rangeStrategy" : "widen",
+      "automerge" : true,
+      "automergeType" : "branch",
+      "requiredStatusChecks" : null
+    }
+  ],
+  "lockFileMaintenance" : {
+    "enabled" : true,
+    "automerge" : true
+  }
+}
